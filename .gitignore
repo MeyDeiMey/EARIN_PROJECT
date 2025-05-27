@@ -1,0 +1,29 @@
+# Entorno virtual
+venv/
+.env/
+.venv/
+
+# Datos originales y procesados
+ecg_project/data/
+ecg_project/labels.csv
+*.mat
+*.hea
+
+# Imágenes generadas (gráficas, matrices de confusión...)
+images/
+
+# Archivos temporales, backups y logs
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# Cachés de Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Configuración de VSCode y Jupyter
+.vscode/
+.ipynb_checkpoints/
